@@ -1,0 +1,17 @@
+body{
+    background-image: url('../../images/lushforest1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div { 
+    width : 75%; 
+    height: 75%; 
+    background-color: grey; 
+    opacity: 0.8;
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
