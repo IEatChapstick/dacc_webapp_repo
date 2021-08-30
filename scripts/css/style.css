@@ -3,20 +3,50 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 /*All text related ss*/
 h1 {
     text-align: center;
     text-decoration: underline;
 }
-p {
-    text-align: center;
-    color: #0455ce;
+
+ul.ulnav{
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
 }
+
+li.linav{
+    float: left;
+}
+li.linav a{
+    display: block;
+    color: #0f80eb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.linav a.active{
+    display: block;
+    color: #aa0bf3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: #ff0000;
+}
+
 /*All box related ss*/
 .box{
     opacity: 0.8;
     position: absolute;
+    border-radius: 10px;
 }
 
 #box1 { 
@@ -26,11 +56,4 @@ p {
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%);
-}
-
-#box2 { 
-    height: 100%; 
-    width: 25%; 
-    background-color: white ;
-    top: 0;
 }
