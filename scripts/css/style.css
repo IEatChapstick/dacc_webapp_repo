@@ -4,14 +4,33 @@ body{
     background-position: center;
     background-size: cover;
 }
-
-div { 
-    width : 75%; 
-    height: 75%; 
-    background-color: grey; 
+/*All text related ss*/
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    color: #0455ce;
+}
+/*All box related ss*/
+.box{
     opacity: 0.8;
     position: absolute;
+}
+
+#box1 { 
+    width : 75%; 
+    height: 75%; 
+    background-color: grey;
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%);
+}
+
+#box2 { 
+    height: 100%; 
+    width: 25%; 
+    background-color: white ;
+    top: 0;
 }
