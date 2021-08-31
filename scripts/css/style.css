@@ -57,10 +57,22 @@ a.nav:hover{
 }
 
 #box1 { 
-    width : 75%; 
-    height: 75%; 
+    width : 85%; 
+    height: 85%; 
     background-color: grey;
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%);
+}
+
+#abme{
+    opacity: 1;
+    width: 45%;
+    height: 100%;
+    left: 15px;
+}
+
+fieldset{
+    border: solid rgb(6, 119, 212) 3px;
+    color: rgb(245, 169, 28);
 }
