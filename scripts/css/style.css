@@ -12,7 +12,7 @@ h1 {
 }
 
 ul.ulnav{
-    border-radius: 10px;
+    border-radius: 5px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,28 +20,35 @@ ul.ulnav{
     background-color: #ffffff;
 }
 
-li.linav{
-    float: left;
-}
-li.linav a{
-    display: block;
-    color: #0f80eb;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+a.nav{
+    font-size: 16px;
+    color: rgb(15, 15, 247);
 }
 
-li.linav a.active{
-    display: block;
-    color: #aa0bf3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li.linav a:hover{
-    background-color: #ff0000;
+a.active{
+    font-size: 16px;
+    color: rgb(222, 30, 240);
 }
 
+a.active:hover{
+    font-size: 18px;
+    color: rgb(48, 204, 170);
+}
+
+a.nav:hover{
+    font-size: 17px;
+    color: rgb(48, 204, 170);
+}
+
+#dacc{
+    font-size: 17px;
+    color: rgb(4, 137, 245);
+}
+
+#lab{
+    font-size: 25px;
+    color: rgb(74, 192, 27);
+}
 /*All box related ss*/
 .box{
     opacity: 0.8;
