@@ -9,6 +9,7 @@ body{
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 ul.ulnav{
@@ -64,16 +65,22 @@ a.nav:hover{
 }
 
 #abme{
-    opacity: 1;
     width: 45%;
     height: 100%;
     left: 15px;
 }
 
+#abmehead{
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    text-decoration: solid rgb(6, 119, 212) underline 3px;
+    font-weight: bold;
+}
+
 fieldset{
     border: solid rgb(6, 119, 212) 3px;
     color: rgb(255, 155, 5);
-    font-size: 18px;
+    font-size: 14pt;
 }
 
 #pics1{
@@ -93,4 +100,29 @@ fieldset{
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+}
+span.standout{
+    color: rgb(255, 123, 0);
+    font-size: 14pt;
+    font-weight: bold;
+}
+#half1{
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 3%;
+}
+#half2{
+    width: 45%;
+    height: 100%;
+
+}
+dt.head{
+    font-size: 25pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+dd.bodytxt{
+    font-size: 14pt;
+    color: rgb(255, 155, 5);
 }
