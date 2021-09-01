@@ -1,5 +1,5 @@
 body{
-    background-image: url('../../images/fallforesttrail1.jpg');
+    background-image: url('../../images/riverforrest.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,15 +51,13 @@ a.nav:hover{
 }
 /*All box related ss*/
 .box{
-    opacity: 0.8;
     position: absolute;
     border-radius: 10px;
 }
 
 #box1 { 
-    width : 85%; 
+    width : 92%; 
     height: 85%; 
-    background-color: grey;
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%);
@@ -74,5 +72,25 @@ a.nav:hover{
 
 fieldset{
     border: solid rgb(6, 119, 212) 3px;
-    color: rgb(245, 169, 28);
+    color: rgb(255, 155, 5);
+    font-size: 18px;
+}
+
+#pics1{
+    float: right;
+    width: 45%;
+    height: 100%;
+    opacity: 1;
+}
+#container{
+    z-index: -1;
+    position: absolute;
+    height: 85%;
+    width: 92%;
+    opacity: .9;
+    background-color: gray;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
