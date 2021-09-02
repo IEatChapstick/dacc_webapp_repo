@@ -4,6 +4,8 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    max-height: 100%; 
+    overflow: hidden; 
 }
 /*All text related ss*/
 h1 {
@@ -125,4 +127,20 @@ dt.head{
 dd.bodytxt{
     font-size: 14pt;
     color: rgb(255, 155, 5);
+}
+td.txtbox{
+    width: 1000px;
+}
+table.table1{
+    width: 85%;
+    margin-left: auto;
+}
+span.header{
+    text-decoration: underline;
+    font-size: 23pt;
+    font-weight: bold;
+}
+ul.txt{
+    color: rgb(255, 155, 5);
+    font-size: 14pt;
 }
