@@ -150,3 +150,7 @@ ul.txt{
     color: rgb(255, 155, 5);
     font-size: 14pt;
 }
+li.hobtxt{
+    list-style: none;
+    font-size: 20pt;
+}
