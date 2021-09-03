@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
+    font-size: 44pt;
 }
 
 ul.ulnav{
@@ -112,20 +113,21 @@ span.standout{
     width: 45%;
     height: 100%;
     position: relative;
-    left: 3%;
+    left: 25%;
 }
 #half2{
     width: 45%;
     height: 100%;
-
+    position: relative;
+    left: 25%;
 }
 dt.head{
-    font-size: 25pt;
+    font-size: 34pt;
     font-weight: bold;
     text-decoration: underline;
 }
 dd.bodytxt{
-    font-size: 14pt;
+    font-size: 18pt;
     color: rgb(255, 155, 5);
 }
 td.txtbox{
@@ -137,10 +139,14 @@ table.table1{
 }
 span.header{
     text-decoration: underline;
-    font-size: 23pt;
+    font-size: 36pt;
     font-weight: bold;
 }
 ul.txt{
+    color: rgb(255, 155, 5);
+    font-size: 24pt;
+}
+#me{
     color: rgb(255, 155, 5);
     font-size: 14pt;
 }
