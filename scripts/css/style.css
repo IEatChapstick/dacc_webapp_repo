@@ -134,8 +134,9 @@ td.txtbox{
     width: 1000px;
 }
 table.table1{
-    width: 85%;
-    margin-left: auto;
+    width: 90%;
+    position: absolute;
+    left: 25%; 
 }
 span.header{
     text-decoration: underline;
@@ -153,4 +154,9 @@ ul.txt{
 li.hobtxt{
     list-style: none;
     font-size: 20pt;
+}
+table.table2{
+    position: absolute;
+    left: 12.5%;
+    margin-left: auto;
 }
