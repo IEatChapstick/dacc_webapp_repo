@@ -27,11 +27,13 @@ ul.ulnav{
 a.nav{
     font-size: 16px;
     color: rgb(15, 15, 247);
+    text-decoration: none;
 }
 
 a.active{
     font-size: 16px;
     color: rgb(222, 30, 240);
+    text-decoration: none;
 }
 
 a.active:hover{
